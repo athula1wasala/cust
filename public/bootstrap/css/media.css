@@ -1,0 +1,32 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    button:focus {
+        outline: 1px dotted;
+        outline: unset;
+    }
+    .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border-color: #7f7f7f !important;
+        padding: 0.3rem 0.38rem;
+    }
+     .nav-link { /* optional style active link */
+        color: #791E7E;
+        font-weight: 600;
+        transition: all .1s ease-in-out .1s;
+    }
+     .tab-views .nav-link {
+         display: block;
+         padding: .5rem 0.3rem;
+         font-size: 14px;
+     }
+}
+
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {  }
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {  }
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {  }
